@@ -1,1 +1,57 @@
-@import url(reset.css)
+@import url(reset.css);
+
+
+
+div {
+  color: white;
+}
+
+p {
+  color: green;
+}
+
+h2 {
+  color: orange;
+}
+
+h3,
+h4 {
+  color: purple;
+}
+
+#independence-ukraine {
+  color: chartreuse;
+}
+
+span {
+  color: yellow;
+}
+
+[class*="an-col"] {
+  color: blue;
+}
+
+.sublist p {
+  color: skyblue;
+}
+
+.sublist .sublist-item {
+  color: brown;
+}
+
+.sublist li {
+  color: darkred;
+}
+
+
+.sublist li>p {
+  color: crimson;
+}
+
+.sublist .text~p {
+  color: darkblue;
+}
+
+.sublist .text+p {
+  color: yellowgreen;
+}
