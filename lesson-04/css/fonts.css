@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+@font-face {
+  font-family: "LangrishScript";
+  src: url(../fonts/Langrish-Script.woff2) format("woff2");
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "KyivRegion";
+  src: url(../fonts/KyivRegion-Regular.woff2) format("woff2");
+  font-style: normal;
+  font-display: swap;
+}

@@ -1,0 +1,67 @@
+@import url(reset.css);
+
+@import url(fonts.css);
+
+
+
+
+* {
+  background-color: gray;
+}
+
+body {
+  font-family: "Montserrat";
+  line-height: 1.5;
+}
+
+h1 {
+  font-weight: 600;
+  font-size: 70px;
+  font-style: italic;
+  color: rgba(241, 245, 11, 0.897);
+  text-shadow: 4px 4px 3px rgba(42, 8, 233, 0.897);
+  text-transform: capitalize;
+  text-align: center;
+}
+
+h2 {
+  font-family: "KyivRegion";
+  font-size: 30px;
+  color: rgba(46, 11, 245, 0.897);
+  text-decoration: underline;
+  text-shadow: 2px 2px 3px rgba(217, 255, 0, 0.89);
+  text-transform: capitalize;
+}
+
+.navigate-list {
+  text-transform: uppercase;
+  color: yellowgreen;
+  letter-spacing: 2px;
+}
+
+#excursions>p+p {
+  font-family: "LangrishScript";
+  text-transform: lowercase;
+}
+
+#excursions>p+p span {
+  color: red;
+  text-decoration: line-through;
+
+}
+
+/* ///////////////////*/
+/* Додаткове завдання */
+/* ////////////////// */
+
+.ecobazar>p {
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+.ecobazar>p~p {
+  font-size: 18px;
+  font-weight: 400;
+}
