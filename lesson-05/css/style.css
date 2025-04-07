@@ -1,0 +1,126 @@
+@import url(reset.css);
+
+@import url(fonts.css);
+
+
+
+
+body {
+  background-color: #231F8B;
+}
+
+h1 {
+  font-weight: 600;
+  font-size: 70px;
+  font-style: italic;
+  color: rgba(241, 245, 11, 0.897);
+  text-shadow: 4px 4px 3px rgba(42, 8, 233, 0.897);
+  text-transform: capitalize;
+  text-align: center;
+}
+
+
+
+.container {
+  max-width: 1440px;
+  padding: 112px 0px;
+}
+
+.block-1 {
+  margin-bottom: 70px;
+}
+
+.block-1 * {
+  margin-bottom: 10px;
+}
+
+h6 {
+  color: #5A54F2;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.7;
+  letter-spacing: 0.2px;
+}
+
+h2 {
+  color: #FFF;
+  font-family: "CircularStd";
+  font-size: 36px;
+  font-weight: 700;
+}
+
+
+.block-1 p {
+  color: #FFF;
+  font-family: "CircularStd";
+  font-size: 14px;
+  font-weight: 450;
+  line-height: 1.4;
+  letter-spacing: 0.2px;
+}
+
+.block-2 {
+  font-size: 0;
+}
+
+.block-2 p {
+  color: #737373;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.4;
+  /* 142.857% */
+  letter-spacing: 0.2px
+}
+
+.block-2 h5 {
+  color: #252B42;
+  font-family: "CircularStd";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.5;
+  /* 150% */
+  letter-spacing: 0.1px;
+}
+
+.line-element {
+  width: 50px;
+  height: 2px;
+  background-color: #E74040;
+}
+
+[class*="card"] * {
+  margin-bottom: 20px;
+}
+
+.block-2 div {
+  margin-right: 30px;
+}
+
+[class*="card"] {
+  display: inline-block;
+  max-width: 230px;
+  font-size: 16px;
+  padding: 35px 40px;
+  background-color: aliceblue;
+  vertical-align: top;
+}
+
+.card-3 {
+  background-color: #5A54F2;
+}
+
+.card-3 h5,
+.card-3 p {
+  color: #FFF;
+}
+
+.card-3 .line-element {
+  background-color: #FFF
+}
+
+.card-2,
+.card-4 {
+  margin-top: 48px;
+}
